@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  MobilePhoneSchool
+//  全局头文件调用
+//  Created by 李策 on 16/1/4.
+//  Copyright © 2016年 mobilephoneschool. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import "Helper.h"
+#import "define.h"
+#import "API.h"
+#import "UserInfo.h"
+#import "UIImage+Jack.h"
+#import "UIView+Jack.h"
+#import "UIBarButtonItem+Jack.h"
+#endif /* PrefixHeader_pch */
